@@ -106,7 +106,7 @@
             context.drawImage(lego, shift, 0, frameWidth, frameHeight,
                                 30, 20, frameWidth, frameHeight);
             
-            shift += frameWidth + 1;
+            shift += frameWidth;
             
                 if(currentFrame==totalFrames-20)
                 {document.getElementById("inhale").style.opacity = "0";}
