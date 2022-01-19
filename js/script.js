@@ -101,7 +101,7 @@
         }  
         function animate(){
             
-            context.clearRect(30,20, 538, 302);
+            context.clearRect(0,0, 538, 302);
             
             context.drawImage(lego, shift, 0, frameWidth, frameHeight,
                                 30, 20, frameWidth, frameHeight);
