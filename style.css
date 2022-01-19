@@ -85,7 +85,7 @@ img{
   position: absolute;
     left: 50%;
     transform: translate(-50%, 50px);
-  top:69vh;
+ top:57vh;
   -webkit-transition: 1s;
 }
 #thought{
