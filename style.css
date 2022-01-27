@@ -22,6 +22,16 @@ img{
   transform: translate(-50%, 50px);
   z-index: 10;
 }
+#door{
+  opacity: 1;
+  margin: auto;
+  padding: auto;
+  position: absolute;
+    left: 50%;
+    transform: translate(-50%, 50px);
+
+  -webkit-transition: 1s;
+}
 #legosiHead{
   /* margin: 0px;
   padding: 0px; */
