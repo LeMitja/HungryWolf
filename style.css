@@ -1,0 +1,138 @@
+body{
+  background-image: url("img/school.jpg");
+  background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+img{
+    -webkit-user-drag: none;
+}
+#inhale{
+  position: absolute;
+  margin-top: 3vh;
+  width:30vw;
+  /* min-width:31.5vw;
+  max-width:31.5vw;
+  min-height:63.5vh; */
+  opacity: 0;
+  -webkit-transition: 1.5s;
+  left: 50%;
+  transform: translate(-50%, 50px);
+  z-index: 10;
+}
+#legosiHead{
+  /* margin: 0px;
+  padding: 0px; */
+  position: absolute;
+  margin-top: 3vh;
+  -webkit-transition: 1.5s;
+  width:30vw;
+  /* min-width:31.5vw;
+  max-width:31.5vw;
+  min-height:63.5vh; */
+  left: 50%;
+  transform: translate(-50%, 50px);
+  top:5vh;
+}
+#maze{
+  position: absolute;
+  margin-top: 3vh;
+  -webkit-transition: 1.5s;
+  width:30vw;
+  left: 50%;
+  background-color: rgba(230, 165, 95, 0.781);
+  transform: translate(-50%, 50px);
+  top:5vh;
+}
+#path{
+  position: absolute;
+  margin-top: 3vh;
+  -webkit-transition: 1.5s;
+  width:30vw;
+  left: 50%;
+  transform: translate(-50%, 50px);
+  top:5vh;
+}
+/* #maze{ */
+  /* margin:auto;
+  padding:auto; */
+  /* margin-top: 3vh;
+  position: absolute;
+  min-width:31.5vw;
+  left: 50%;
+    transform: translate(-50%, 50px);
+  background-color: rgba(230, 165, 95, 0.781);
+  min-height:63.5vh;
+} */
+#start{
+  -webkit-transition: 1s;
+  top:50%;
+  cursor: pointer;
+  position: absolute;
+  font-size: 3vh;
+  width: 30%;
+  opacity:0;
+  transform: translate(50px, -50%);
+  padding:2vh;
+  background-color: rgba(230, 165, 95, 0.781);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#door{
+  opacity: 1;
+  margin: auto;
+  padding: auto;
+  position: absolute;
+    left: 50%;
+    transform: translate(-50%, 50px);
+
+  -webkit-transition: 1s;
+}
+#sandwich{
+  min-width:5vw;
+  min-height:7vh;
+  max-width:5vw;
+  max-height:7vh;
+  opacity: 1;
+  margin: auto;
+  padding: auto;
+  position: absolute;
+    left: 50%;
+    transform: translate(-50%, 50px);
+  top:63vh;
+  -webkit-transition: 1s;
+}
+#thought{
+  font-size: 2vh;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  -webkit-transition: 2s;
+  opacity: 0;
+background-color:#fff;
+padding:20px;
+margin-top: 55vh;
+border-radius:30px;
+min-width:40px;
+max-width:600px;
+min-height:40px;
+/* margin:20px; */
+margin-left: 25vw;
+position: absolute;
+align-items:center;
+justify-content:center;
+text-align:center;
+}
+
+#message{
+  width:60vw;
+  height:50vh;
+  background-image: url("img/messagefl.png");
+  background-size: 90vh;
+  background-repeat: no-repeat;
+  position: absolute;
+  top:50vh;
+  opacity: 0;
+  -webkit-transition: 2s;
+  /* margin-left: 1vw; */
+}
+
